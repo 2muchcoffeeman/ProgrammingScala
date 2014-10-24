@@ -2,7 +2,6 @@
  * Created by marc on 18/07/2014.
  */
 
-import java.util
 import java.util._
 
 object HelloWorld {
@@ -10,7 +9,7 @@ object HelloWorld {
     println("hello world " + args(0))
   }
 
-  def loop() = {
+  protected def loop() = {
     for (i <- 1 to 5) {
       printf("%s,", i)
     }
@@ -69,7 +68,6 @@ object Lists {
   }
 
 }
-
 HelloWorld.loop()
 
 var car = new Car(1981)
